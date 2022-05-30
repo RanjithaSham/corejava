@@ -8,8 +8,8 @@ public class SwitchDemo {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Please choose the numbers between 1 to 7 to select a music instrument");
 		int instrument=sc.newInt();
-		string music Instrument;
-		Switch(instrument){
+		String music Instrument;
+		Switch( musicInstrument){
 			case1:
 				musicInstrument="Guitar";
 			break;

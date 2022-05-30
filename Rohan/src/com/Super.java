@@ -1,20 +1,20 @@
 package com;
 
-public class SuperDemo1 {
-	class A {
-		int a;
-		int b;
+ class A {
+	int a;
+	int b;
 
-		public A() {
-			System.out.println("In A class default constructor");
+	public A() {
+		System.out.println("In A class default constructor");
 
-		}
+	}
 
-		public A(int a, int b) {
-			System.out.println("In A class parameterized constructor");
-			this.a = a;
-			this.b = b;
-		}
+	public A(int a, int b) {
+		System.out.println("In A class parameterized constructor");
+		this.a = a;
+		this.b = b;
+	}
+
 	}
 
 	class B extends A {
@@ -33,14 +33,16 @@ public class SuperDemo1 {
 			System.out.println("In B class parameterized constructor");
 		}
 	}
-
-	public class SuperDemo
+	public class Super
 	{
 		public static void main(String[] args)
 		{
-			B obj = new B();
+			B obj=new B();
 			System.out.println(obj.a);
 			System.out.println(obj.b);
 		}
-	}
-}
+		}
+		
+	
+
+
