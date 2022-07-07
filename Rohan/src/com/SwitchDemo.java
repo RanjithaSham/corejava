@@ -7,28 +7,28 @@ public class SwitchDemo {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Please choose the numbers between 1 to 7 to select a music instrument");
-		int instrument=sc.newInt();
-		String music Instrument;
-		Switch( musicInstrument){
-			case1:
+		int instrument=sc.nextInt();
+		String musicInstrument;
+		switch(instrument){
+			case 1:
 				musicInstrument="Guitar";
 			break;
-			case2:
+			case 2:
 				musicInstrument="Piano";
 			break;
-			case3:
+			case 3: 
 				musicInstrument="Drums";
 			break;
-			case4:
+			case 4:
 				musicInstrument="Flute";
 			break;
-			case5:
+			case 5:
 				musicInstrument="Ukelete";
 			break;
-			case6:
+			case 6:
 				musicInstrument="Violin";
 			break;
-			case7:
+			case 7:
 				musicInstrument="Trumpet";
 			break;
 			default:
@@ -39,7 +39,7 @@ public class SwitchDemo {
 	}
 }
 
-}
+
 		
 		
 	
